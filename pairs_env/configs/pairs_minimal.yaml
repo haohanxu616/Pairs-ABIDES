@@ -1,0 +1,17 @@
+# Minimal two-symbol market with light background flow
+
+session:
+  date: 2020-06-01
+  start_time: 09:30:00
+  end_time: 10:30:00     # 60-minute quick test
+  wakeup_dt_seconds: 30  # agent decision cadence (seconds)
+
+market:
+  symbols: [SYM_A, SYM_B]
+  latency_ns: 500000     # 0.5 ms, keep it simple
+
+execution_agent:
+  mode: TWAP        # TWAP | VWAP | POV | IS
+  pair: [SYM_A, SYM_B]
+  hedge: dollar     # dollar | beta (v0 keeps beta=1)
+  notional: 1000000 # + => long spread (buy A / sell B), - => short spread

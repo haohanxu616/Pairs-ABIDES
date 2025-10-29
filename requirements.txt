@@ -1,0 +1,7 @@
+coloredlogs==15.0.1
+numpy
+pandas
+scipy
+tqdm==4.61.1
+matplotlib
+pytest
