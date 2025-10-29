@@ -45,4 +45,3 @@ pairs_abides/
 | **SCE** | Synchronization-Constrained Expert  | Maintains leg synchronization under hedge ratio ρ    |
 | **OME** | Opportunistic Microstructure Expert | Accelerates fills in favorable microstructure states |
 | **RAE** | Risk-Aversion / Stability Expert    | Reduces exposure under volatility or instability     |
-) for your GitHub front page? It would read more like an academic project overview.
