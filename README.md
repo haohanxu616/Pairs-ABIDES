@@ -1,6 +1,6 @@
 # Pairs-ABIDES
 
-**Pairs-ABIDES** extends the [ABIDES](https://github.com/abides-sim/abides) simulation framework to model *synchronized multi-asset (pairs) execution* under realistic market microstructure dynamics.
+**Pairs-ABIDES** extends the [ABIDES](https://github.com/jpmorganchase/abides-jpmc-public) simulation framework to model *synchronized multi-asset (pairs) execution* under realistic market microstructure dynamics.
 It introduces deterministic rule-based experts, reinforcement learning agents, and a synchronization-aware mixture-of-experts (MoE-DPO) pipeline for interpretable optimal execution across correlated legs.
 
 ---
