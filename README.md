@@ -5,7 +5,7 @@ It introduces deterministic rule-based experts, reinforcement learning agents, a
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 pairs_abides/
@@ -21,7 +21,7 @@ pairs_abides/
 
 ---
 
-## ⚙️ Workflow Overview
+## Workflow Overview
 
 1. **Stage 0 — Initialization**
    Load correlated asset pair, define hedge ratio ρ, simulation clock, and base ABIDES agents.
@@ -37,7 +37,7 @@ pairs_abides/
 
 ---
 
-## 🧩 Rule-Based Experts
+## Rule-Based Experts
 
 | Expert  | Full Name                           | Primary Role                                         |
 | ------- | ----------------------------------- | ---------------------------------------------------- |
